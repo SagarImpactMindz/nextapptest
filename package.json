@@ -13,6 +13,7 @@
     "@emotion/styled": "^11.14.0",
     "@hookform/resolvers": "^3.10.0",
     "@mui/material": "^6.4.0",
+    "@types/react": "^19.0.8",
     "axios": "^1.7.9",
     "bcrypt": "^5.1.1",
     "bcryptjs": "^2.4.3",
@@ -30,6 +31,7 @@
     "react-dom": "^19.0.0",
     "react-hook-form": "^7.54.2",
     "react-hot-toast": "^2.5.1",
+    "typescript": "^5.7.3",
     "yup": "^1.6.1"
   },
   "devDependencies": {
