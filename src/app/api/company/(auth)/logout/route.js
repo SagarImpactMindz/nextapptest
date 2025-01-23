@@ -23,24 +23,3 @@ export async function GET(req) {
     );
   }
 }
-
-// import { NextResponse } from "next/server";
-
-// export async function POST(req) {
-//   try {
-//     const response = NextResponse.json(
-//       { isSuccess: true, message: "Logout successful." },
-//       { status: 200 }
-//     );
-
-//     // Delete the cookie
-//     response.cookies.delete("c_tkn");
-
-//     return response;
-//   } catch (error) {
-//     return NextResponse.json(
-//       { isSuccess: false, error: error.message, message: "Unable to logout." },
-//       { status: 500 }
-//     );
-//   }
-// }
